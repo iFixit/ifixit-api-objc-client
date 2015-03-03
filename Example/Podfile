@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'iFixitAPI', :exclusive => true do
+  pod "iFixitAPI", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "iFixitAPI", :path => "../"
+
+  
+end
